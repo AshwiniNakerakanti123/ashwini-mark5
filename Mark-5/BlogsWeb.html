@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs Page</title>
+    <link style href="styles.css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="nav-brand">IamAshwini</div>
+        <ul class="unordered">
+        <li class="list-inline" >
+            <a class="link " href="/Mark-5/FinalWebPage.html" >Home</a>
+        </li>
+        <li class="list-inline">
+            <a class="link " href="/Mark-5/ProjectWeb.html">Projects</a>
+        </li >
+        <li class='list-inline'>
+            <a class="link link-active" href="/Mark-5/BlogsWeb.html">Blogs</a>
+        </li>
+</ul>
+    </nav> 
+   <h1>List of Blogs</h1>
+   <section>
+    <h2><a class="link" href="/Mark-5/BlogIntroPage.html">Introduction</a></h2>
+    <small>10th Feb 2023</small>
+    <p>I am very happy to introduce my blogs here...
+     If your interested u have see here 
+     Or else If your not interested u have to skip here ..Now worries.
+
+    </p>
+   </section>
+<section>
+ <h2><a class="link" href="/Mark-5/BlogHealthPage.html">Tips For Health</a></h2>
+ <small>1st March 2023</small>
+ <p>I am happy to introduce this Tips fo Health.
+    You will be know detailed in this Blog.
+</p>
+<p>Dummy text: Its function as a filler or as a tool for comparing 
+    the visual impression of different typefaces<span id="dot">...</span><span id="large">Dummy text is text 
+    that is used in the publishing industry or by web designers to 
+    occupy the space which will later be filled with 'real' content. 
+    This is required when, for example, the final text is not yet available.
+     Dummy text is also known as 'fill text'. It is said that song composers
+      of the past used dummy texts as lyrics when writing melodies in order 
+      to have a 'ready-made' text to sing with the melody. Dummy texts have 
+      been in use by typesetters since the 16th century.</span> </p>
+      <button class="link link-primary" onclick="myFunction()" id="mybtn" >Read more</button> 
+      <!-- <a href="/" class="link link-primary">primary link</a> -->
+      <script>
+         function myFunction(){
+            var dots = document.getElementById("dot");
+                    var moreText = document.getElementById("large");
+                    var btnText = document.getElementById("mybtn");
+
+                    if(dots.style.display ==="none"){
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                        moreText.style.display = "none";
+                    }
+                    else{
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Read less";
+                        moreText.style.display = "inline";
+                    }
+                }
+      </script>
+</section>
+<section>
+    <h2>Human Condition</h2>
+    <p>Human Condition
+        Human Condition videos are primarily about people. 
+        Within the Human Condition category, the subcategories 
+        are "More than a Day Job", "Defiant", "No Way!?", and 
+        "Music to my <span id="dots">....</span><span id="more"> Ears".[12] More than a Day Job covers crafters, 
+        artist, innovators and regular people doing their job. 
+        These videos include a story about the man that runs
+         the last manual scoreboard or the first autistic actor 
+         to be cast as the lead in a play. Defiant videos are about
+          people who break expectations and societal norms that are 
+          put in for them. These videos include stories about a
+           bodybuilder with 1 arm and no legs or a Division
+            1 college football player that is completely blind. 
+            No Way videos are stories about people that many people don’t know.
+             One of these videos is about how a high school project inspired 
+             the 50-star American flag. The last section in Human Condition 
+             is Music to our Ears. Music to our Ears covers stories about 
+             songs and musicians that may be surprising. One of these stories 
+             includes one about the missing people choir. This choir is full of 
+             families and individuals of missing children who come together as a 
+             choir, turning their grief into hope.</span></p>
+             <button class="link link-primary" onclick="myClick()" id="myBtn">Show More</button>
+             <script>
+                function myClick(){
+                    var dots = document.getElementById("dots");
+                    var moreText = document.getElementById("more");
+                    var btnText = document.getElementById("myBtn");
+
+                    if(dots.style.display ==="none"){
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Show More";
+                        moreText.style.display = "none";
+                    }
+                    else{
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Show Less";
+                        moreText.style.display = "inline";
+                    }
+                }
+             </script> 
+             
+</section>
+<footer class="footer">
+    <p>Know about me here</p>
+    <ul>
+    <li class="list-inline">
+        <a class="link" href="https://Github.com">Github.com</a>
+        </li>
+    <li class="list-inline">
+        <a class="link" href="https://Linkdin.com">Linkdin.com</a>
+    </li>
+    <i  class="fa fa-twitter"></i>
+   
+    <li class="list-inline">
+
+        <a class="link" href="https://Twitter.com">Twitter.com</a>
+    </li>
+    <li class="list-inline">
+        <a class="link" href="https://Instagram.com">Instagram.com</a>
+      </li>
+      <li class="list-inline">
+        <a class="link" href="https://Replit.com">Replit.com</a>
+      </li>
+</ul>
+ </footer>
+</body>
+</html>
